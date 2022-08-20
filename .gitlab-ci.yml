@@ -1,0 +1,26 @@
+stages:
+  - deploy
+
+vdiarybook_admin:
+  stage: deploy
+  tags:
+    - vdiarybook_admin
+  only:
+    - master
+  script:
+    - whoami
+    - groups
+    - cp -r -u * /vdiarybook/admin
+    - cd /vdiarybook/admin
+
+    - rm -rf build/*
+    - nvm exec 16.14.2 yarn
+    - nvm exec 16.14.2 yarn run build
+  
+    - rm -rf build_production
+    - cp -rf build build_production
+  
+    # - pm2 serve build_production 3106 --spa --name vdiarybook_admin
+    - pm2 list
+    - pm2 restart vdiarybook_admin
+    - pm2 list

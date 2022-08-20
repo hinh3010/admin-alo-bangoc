@@ -1,0 +1,64 @@
+.tinhnx-card {
+    .action-all-table {
+        margin: 0px 2rem;
+    }
+
+    table {
+        border: none !important;
+
+        thead>tr {
+            th {
+                border: none !important;
+            }
+        }
+
+        tbody>tr {
+            td {
+                border: none !important;
+            }
+        }
+    }
+}
+
+//==================================================================================
+.custom-modal-detail {
+    max-width: 600px !important;
+
+    .modal-header {
+        padding: 0.5rem 1rem !important;
+        border-bottom: none !important;
+    }
+
+    .modal-footer {
+        border-top: none !important;
+        padding: 0px !important;
+        justify-content: center !important;
+    }
+
+    .label {
+        font-weight: 700;
+    }
+}
+
+.custom-modal-password {
+    .tinhnx-form-group {
+        margin-bottom: 1rem;
+
+        .form-tinhnx {
+            display: block;
+            width: 100%;
+            height: calc(1.5em + 0.625rem + 2px);
+            padding: 0.3125rem 1rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #344050;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #d8e2ef;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        }
+    }
+
+}

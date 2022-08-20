@@ -1,0 +1,42 @@
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: auto;
+   border-color: rgb(255, 255, 255);
+   box-shadow: rgb(43 45 80 / 10%) 0px 0px 0px 1px, rgb(43 45 80 / 8%) 0px 2px 5px 0px, rgb(0 0 0 / 7%) 0px 1px 1.5px 0px, rgb(0 0 0 / 8%) 0px 1px 2px 0px;
+}
+
+.customDatePickerWidth{
+    margin: 0 5px;
+}
+
+.dropdown > button{
+    border-color: rgb(255, 255, 255);
+    box-shadow: rgb(43 45 80 / 10%) 0px 0px 0px 1px, rgb(43 45 80 / 8%) 0px 2px 5px 0px, rgb(0 0 0 / 7%) 0px 1px 1.5px 0px, rgb(0 0 0 / 8%) 0px 1px 2px 0px;
+}
+
+button {
+    height: 36px;
+}
+
+label{
+    max-width: 11rem;  
+}
+
+#rdp-form-control-1, #rdp-form-control-2{
+    border-color: rgb(255, 255, 255);
+    box-shadow: rgb(43 45 80 / 10%) 0px 0px 0px 1px, rgb(43 45 80 / 8%) 0px 2px 5px 0px, rgb(0 0 0 / 7%) 0px 1px 1.5px 0px, rgb(0 0 0 / 8%) 0px 1px 2px 0px;
+}
+
+.min-width > button {
+    min-width: 8rem;
+}
+
+.expand-cell-header, .selection-cell-header{
+    width: 3%;
+}
+
+.expand-cell{
+    vertical-align: middle !important;
+}

@@ -1,0 +1,39 @@
+.custom-modal-detail-group {
+    max-width: 600px !important;
+
+    .modal-header {
+        padding: 0.5rem 1rem !important;
+        border-bottom: none !important;
+    }
+
+    .modal-footer {
+        border-top: none !important;
+        padding: 0px !important;
+        justify-content: center !important;
+    }
+
+    .label {
+        font-weight: 700;
+    }
+
+}
+
+table>tbody>tr>td {
+    cursor: pointer;
+}
+
+.filter-custom {
+    display: flex;
+
+    .dropdown {
+        button {
+            font-size: 14px !important;
+            margin-right: 10px;
+
+            color: #4d5969;
+            background-color: #fff;
+            border-color: #fff;
+        }
+    }
+
+}

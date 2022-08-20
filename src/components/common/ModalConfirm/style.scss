@@ -1,0 +1,23 @@
+.default-cusotm-confirm {
+    .react-confirm-alert-body {
+        h2 {
+            padding-bottom: 10px;
+        }
+    }
+
+    .custom-button-group {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 20px;
+
+        button {
+            outline: none;
+            border: none;
+            display: inline-block;
+            padding: 6px 18px;
+            margin-right: 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+    }
+}
